@@ -17,9 +17,9 @@ console.log(newArrayNumber);
 
 // Создайте массив строк, представляющих даты, и используйте метод map, чтобы преобразовать каждую строку в объект Date.
 
-// const arrayDate = ['{"date:" 12.02.2024}', '{"date:" 04.08.2022}', '{"date:" 23.03.2023}', '{"date:" 16.04.2024}']
-// const newArrayDate = arrayDate.map((string)=> JSON.parse(string))
-// console.log(newArrayDate)
+const arrayDate = ['{"date": "12.02.2024"}', '{"date": "04.08.2022"}', '{"date": "23.03.2023"}', '{"date": "16.04.2024"}'];
+const newArrayDate = arrayDate.map((string)=> JSON.parse(string))
+console.log(newArrayDate)
 
 // Создайте массив чисел и используйте метод map, чтобы создать новый массив, содержащий квадраты каждого числа.
 
